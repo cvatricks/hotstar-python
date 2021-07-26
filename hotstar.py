@@ -9,7 +9,7 @@ class generateURL(object):
 
     def __init__(self):
 
-        self._url = raw_input("Enter the hotstar URL to open in hsplayer:")
+        self._url = input("Enter the hotstar URL to open in hsplayer:")
 
         self._path_parameter = str(self._url).split('/')
 
