@@ -37,20 +37,20 @@ class generateURL(object):
   
                   src = data["resultObj"]["src"]
 
-                  print "Open https://www.hlsplayer.net/ and paste the below url in the box"
+                  print("Open https://www.hlsplayer.net/ and paste the below url in the box")
 
-                  print src
+                  print(src)
 
              else:
  
-                  print "Please recheck the URL"
+                  print("Please recheck the URL")
 
 
         except Exception as e:
 
-              print "Error occured is :" ,e
+              print("Error occured is :" ,e)
 
-              print "Please recheck the URL"
+              print("Please recheck the URL")
 
 
 
